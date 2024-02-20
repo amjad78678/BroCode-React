@@ -78,3 +78,18 @@
    margin: 0;
 }
 
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.list-items li{
+
+  font-size: 2em;
+  text-align: center;
+  list-style: none;
+
+}

@@ -14,6 +14,14 @@ function App() {
      { id: 4, name: 'pappaya', calories: 85 },
    ];
 
+   const vegetables = [
+     { id: 1, name: 'carrot', calories: 41 },
+     { id: 2, name: 'broccoli', calories: 55 },
+     { id: 3, name: 'spinach', calories: 23 },
+     { id: 4, name: 'cucumber', calories: 16 },
+   ];
+
+
 
     return (
       <>
@@ -27,7 +35,10 @@ function App() {
          <UserGreeting />
 
 
-         <List items={fruits} category='fruits'/>
+               
+       {fruits.length>0? <List items={fruits} category='fruits'/>:null} 
+
+       {vegetables.length>0 ?<List items={vegetables} category='vegetables'/>:null} 
       </>
     );
 
