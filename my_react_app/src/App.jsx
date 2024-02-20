@@ -26,9 +26,9 @@ function App() {
     return (
       <>
       
-        <Card />
+         <Card />
          <Button/>
-         <Student name="Amjadali" age='nalaayiram' isStudent={true}  />
+         <Student name="Amjadali" age={18} isStudent={true}  />
          <Student name='akash'/>
 
          <UserGreeting isLoggedIn={true} username='mohammed amjadali mk'/>
@@ -37,7 +37,6 @@ function App() {
 
                
        {fruits.length>0? <List items={fruits} category='fruits'/>:null} 
-
        {vegetables.length>0 ?<List items={vegetables} category='vegetables'/>:null} 
       </>
     );
