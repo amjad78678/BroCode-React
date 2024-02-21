@@ -1,20 +1,11 @@
 function Button(){
 
-   let count=0
-   const handleClick=(name)=> {
-
-      count++
-      if(count<=3){
-         console.log(`Hey ${name} you clicked me ${count} times`)
-      }else{
-
-         console.log(`Hey ${name} why you clicking stop click rascal`)
-      }
-   }
+   
+   const handleClick=(e)=>e.target.textContent='OUCH!'
 
 
    return(
-   <button onClick={()=>handleClick('amjadali ')} className="button">Click me</button>
+   <button onDoubleClick={(event)=>handleClick(event)}  className="button">Click me</button>
 
    )
 

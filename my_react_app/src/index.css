@@ -85,3 +85,37 @@
   list-style: none;
 
 }
+
+.counter-container{
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: .5em;
+  font-weight:bold ;
+  margin: 0px 5px;
+  background-color: hsla(271, 76%, 53%, 0.78);
+  color: white;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+
+}
+.counter-button:hover{
+  background-color: hsla(271, 76%, 53%, 0.576);
+}
+
+
+.counter-display{
+ 
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 50px; 
+
+}

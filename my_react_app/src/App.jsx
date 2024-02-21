@@ -4,6 +4,10 @@ import Button from "./Button";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
+import ProfilePicture from "./ProfilePicture";
+import MyComponent  from "./MyComponent";
+import Counter from "./Counter";
+
 
 function App() {
   
@@ -25,9 +29,8 @@ function App() {
 
     return (
       <>
-      
-         <Card />
-         <Button/>
+{/*       
+         <ProfilePicture />
          <Student name="Amjadali" age={18} isStudent={true}  />
          <Student name='akash'/>
 
@@ -37,7 +40,11 @@ function App() {
 
                
        {fruits.length>0? <List items={fruits} category='fruits'/>:null} 
-       {vegetables.length>0 ?<List items={vegetables} category='vegetables'/>:null} 
+       {vegetables.length>0 ?<List items={vegetables} category='vegetables'/>:null}  */}
+
+
+        <Counter />
+
       </>
     );
 
