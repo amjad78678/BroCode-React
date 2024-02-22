@@ -11,6 +11,7 @@ import OnChange from "./OnChange";
 import ColorPicker from "./ColorPicker";
 import ObjectState from "./ObjectState";
 import ArrayState from './ArrayState';
+import ArrayOfObjectState from "./ArrayOfObjectState";
 
 
 function App() {
@@ -53,11 +54,11 @@ function App() {
 
         {/* <Counter /> */}
 
-        < ArrayState />
+        <ArrayOfObjectState />
 
       </>
     );
 
   }
 
-export default App
+export default App;

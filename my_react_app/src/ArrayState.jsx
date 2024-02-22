@@ -4,7 +4,6 @@
  const ArrayState = () => {
    
  const [foods,setFoods]=useState(['Apple','Orange','Banana'])
- const [searchText,setSearchText]=useState()
 
 
 
