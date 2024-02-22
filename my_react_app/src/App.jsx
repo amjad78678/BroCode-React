@@ -9,6 +9,8 @@ import MyComponent  from "./MyComponent";
 import Counter from "./Counter";
 import OnChange from "./OnChange";
 import ColorPicker from "./ColorPicker";
+import ObjectState from "./ObjectState";
+import ArrayState from './ArrayState';
 
 
 function App() {
@@ -47,7 +49,11 @@ function App() {
 
         {/* <OnChange /> */}
 
-        <ColorPicker />
+        {/* <ColorPicker /> */}
+
+        {/* <Counter /> */}
+
+        < ArrayState />
 
       </>
     );

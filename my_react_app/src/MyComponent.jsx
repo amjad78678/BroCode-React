@@ -11,7 +11,6 @@ const updateName=()=>{
 
     setName('Amjadali') 
  
-
 }
 
 const incrementAge=()=>{
