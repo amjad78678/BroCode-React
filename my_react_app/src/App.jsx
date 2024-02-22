@@ -7,6 +7,7 @@ import List from "./List";
 import ProfilePicture from "./ProfilePicture";
 import MyComponent  from "./MyComponent";
 import Counter from "./Counter";
+import OnChange from "./OnChange";
 
 
 function App() {
@@ -43,7 +44,7 @@ function App() {
        {vegetables.length>0 ?<List items={vegetables} category='vegetables'/>:null}  */}
 
 
-        <Counter />
+        <OnChange />
 
       </>
     );
